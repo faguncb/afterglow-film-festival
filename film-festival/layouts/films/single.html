@@ -1,0 +1,61 @@
+{{ define "main" }}
+  {{ $slug := .File.ContentBaseName }}
+  <article class="wrap film">
+    <div class="poster film-poster" style="--wash: {{ .Params.poster | safeCSS }}" aria-hidden="true">
+      <span class="poster-top">
+        <span>{{ .Params.genre }}</span>
+        <span>{{ .Params.runtime }} min</span>
+      </span>
+      <span class="poster-title">{{ .Title }}</span>
+      <span class="poster-by"><span>{{ .Params.country }} · {{ .Params.year }}</span></span>
+    </div>
+    <div class="film-copy">
+      <p class="kicker">{{ .Params.category }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.tagline }}<p class="lede">{{ . }}</p>{{ end }}
+      <dl class="facts">
+        <div><dt>Director</dt><dd>{{ .Params.director }}</dd></div>
+        <div><dt>Runtime</dt><dd>{{ .Params.runtime }} min</dd></div>
+        <div><dt>Country</dt><dd>{{ .Params.country }}</dd></div>
+        <div><dt>Language</dt><dd>{{ .Params.language }}</dd></div>
+      </dl>
+      <div class="prose">{{ .Content }}</div>
+      <h2>Screenings</h2>
+      {{ .Scratch.Set "hits" 0 }}
+      <ul class="film-times">
+        {{ range hugo.Data.screenings.days }}
+          {{ $day := . }}
+          {{ range $day.screenings }}
+            {{ if eq .film $slug }}
+              {{ $.Scratch.Add "hits" 1 }}
+              <li>
+                <span>{{ $day.weekday }}<br>{{ $day.date }}</span>
+                <span>{{ .time }}</span>
+                <span>{{ .screen }}{{ with .note }}<span class="show-note">{{ . }}</span>{{ end }}</span>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ if eq (.Scratch.Get "hits") 0 }}
+        <p>Screening times for this film have not been posted.</p>
+      {{ end }}
+      <p><a class="text-link" href="{{ "/tickets/" | relURL }}">Reserve a seat</a></p>
+    </div>
+  </article>
+
+  <section class="band" aria-labelledby="also-heading">
+    <div class="wrap">
+      <div class="band-head">
+        <h2 id="also-heading">Also on the program</h2>
+        <a class="text-link" href="{{ "/films/" | relURL }}">All films</a>
+      </div>
+      <ul class="poster-row">
+        {{ $others := where (where site.RegularPages "Section" "films") "File.ContentBaseName" "ne" $slug }}
+        {{ range first 4 $others.ByWeight }}
+          {{ partial "film-card.html" . }}
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+{{ end }}

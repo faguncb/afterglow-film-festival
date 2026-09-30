@@ -1,0 +1,5 @@
+<header class="sheet-head">
+  {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
+</header>

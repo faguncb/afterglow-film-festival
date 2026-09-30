@@ -1,0 +1,16 @@
+<li class="poster-slot" data-genre="{{ .Params.genre }}">
+  <a class="poster" href="{{ .RelPermalink }}" style="--wash: {{ .Params.poster | safeCSS }}">
+    <span class="poster-top">
+      <span>{{ .Params.genre }}</span>
+      <span>{{ .Params.runtime }} min</span>
+    </span>
+    {{ if or (eq .Params.category "Opening night") (eq .Params.category "Closing night") }}
+      <span class="poster-strand">{{ .Params.category }}</span>
+    {{ end }}
+    <span class="poster-title">{{ .Title }}</span>
+    <span class="poster-by">
+      <span>{{ .Params.director }}</span>
+      <span>{{ .Params.country }}</span>
+    </span>
+  </a>
+</li>

@@ -1,0 +1,31 @@
+<div class="days">
+  {{ range $i, $day := .days }}
+    <article class="day">
+      <header class="day-head">
+        <span class="day-index">{{ printf "%02d" (add $i 1) }}</span>
+        <div>
+          <h2>{{ $day.weekday }}</h2>
+          <p>{{ $day.date }} · {{ $day.label }}</p>
+        </div>
+      </header>
+      <ul class="showtimes">
+        {{ range $day.screenings }}
+          {{ $film := site.GetPage (printf "/films/%s" .film) }}
+          <li>
+            <time datetime="{{ .time }}">{{ .time }}</time>
+            <div>
+              {{ if $film }}
+                <a href="{{ $film.RelPermalink }}">{{ $film.Title }}</a>
+                <span class="show-meta">{{ $film.Params.director }} · {{ $film.Params.runtime }} min</span>
+              {{ else }}
+                <span>{{ .film }}</span>
+              {{ end }}
+              {{ with .note }}<span class="show-note">{{ . }}</span>{{ end }}
+            </div>
+            <span class="screen">{{ .screen }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    </article>
+  {{ end }}
+</div>

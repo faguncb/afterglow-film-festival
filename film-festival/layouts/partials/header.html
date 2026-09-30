@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="wrap header-bar">
+    <a class="brand" href="{{ "/" | relURL }}">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Afterglow</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      <ul>
+        {{ range site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}"{{ if .Params.cta }} class="nav-cta"{{ end }}{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

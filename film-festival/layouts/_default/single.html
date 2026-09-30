@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article class="wrap sheet">
+    {{ partial "page-head.html" . }}
+    <div class="sheet-grid">
+      <div class="prose">{{ .Content }}</div>
+      {{ if eq .Params.sidebar "facts" }}
+        <aside class="aside-card">
+          <p class="footer-label">At a glance</p>
+          <dl class="facts facts-stack">
+            <div><dt>Edition</dt><dd>{{ site.Params.edition }}</dd></div>
+            <div><dt>Founded</dt><dd>{{ site.Params.founded }}</dd></div>
+            <div><dt>Dates</dt><dd>{{ site.Params.dates }}</dd></div>
+            <div><dt>House</dt><dd>{{ site.Params.venue.name }}</dd></div>
+            <div><dt>Screens</dt><dd>{{ site.Params.venue.screens }}</dd></div>
+          </dl>
+        </aside>
+      {{ else if eq .Params.sidebar "venue" }}
+        <aside class="aside-card">
+          <p class="footer-label">Box office</p>
+          <p class="aside-title">{{ site.Params.venue.name }}</p>
+          <p>{{ site.Params.venue.street }}<br>{{ site.Params.venue.locality }}</p>
+          <p>{{ site.Params.venue.screens }}</p>
+          <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+        </aside>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

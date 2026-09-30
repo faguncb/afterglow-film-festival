@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="wrap sheet">
+    {{ partial "page-head.html" . }}
+    {{ $films := .Pages.ByWeight }}
+    <div class="filters" data-filters>
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      {{ $genres := slice }}
+      {{ range $films }}
+        {{ $genres = $genres | append .Params.genre }}
+      {{ end }}
+      {{ range $genres | uniq }}
+        <button type="button" data-filter="{{ . }}" aria-pressed="false">{{ . }}</button>
+      {{ end }}
+    </div>
+    <p class="filter-status" data-filter-status aria-live="polite">Showing all {{ len $films }} films</p>
+    <ul class="posters">
+      {{ range $films }}
+        {{ partial "film-card.html" . }}
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

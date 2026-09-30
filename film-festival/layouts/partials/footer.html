@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="brand-lockup">Afterglow</p>
+      <p>Edition {{ site.Params.edition }} · {{ site.Params.city }}</p>
+    </div>
+    <div>
+      <p class="footer-label">Visit</p>
+      <p>{{ site.Params.venue.name }}<br>{{ site.Params.venue.street }}<br>{{ site.Params.venue.locality }}</p>
+    </div>
+    <div>
+      <p class="footer-label">Dates</p>
+      <p>{{ site.Params.dates }}</p>
+      <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+    </div>
+  </div>
+</footer>

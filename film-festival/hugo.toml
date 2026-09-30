@@ -1,0 +1,48 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Afterglow Film Festival'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  description = 'Afterglow is five nights of independent cinema at The Lantern in Portland, October 16–20, 2026.'
+  edition = '12'
+  dates = 'October 16–20, 2026'
+  dateRange = 'Oct 16–20, 2026'
+  city = 'Portland, Oregon'
+  email = 'hello@afterglow.example'
+  tagline = 'Five nights of independent cinema.'
+  founded = '2015'
+
+[params.venue]
+  name = 'The Lantern'
+  street = '418 Ash Street'
+  locality = 'Portland, Oregon'
+  screens = 'Main Hall, 420 seats · Studio, 90 seats'
+
+[[menus.main]]
+  name = 'Films'
+  pageRef = '/films'
+  weight = 10
+
+[[menus.main]]
+  name = 'Program'
+  pageRef = '/program'
+  weight = 20
+
+[[menus.main]]
+  name = 'Tickets'
+  pageRef = '/tickets'
+  weight = 30
+  [menus.main.params]
+    cta = true
+
+[[menus.main]]
+  name = 'Venue'
+  pageRef = '/venue'
+  weight = 40
+
+[[menus.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 50

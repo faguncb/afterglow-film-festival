@@ -1,0 +1,103 @@
+{{ define "main" }}
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="kicker">Edition {{ site.Params.edition }} · Est. {{ site.Params.founded }}</p>
+      <h1>Afterglow <em>Film Festival</em></h1>
+      <p class="lede">{{ site.Params.tagline }} Eight new films, two screens, and a lobby that stays open late.</p>
+      <ul class="hero-facts">
+        <li>{{ site.Params.dates }}</li>
+        <li>{{ site.Params.venue.name }}, {{ site.Params.city }}</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="button" href="{{ "/program/" | relURL }}">See the program</a>
+        <a class="button ghost" href="{{ "/tickets/" | relURL }}">Get a pass</a>
+      </div>
+    </div>
+    {{ with index hugo.Data.screenings.days 0 }}
+      {{ $opening := index .screenings 0 }}
+      {{ $film := site.GetPage (printf "/films/%s" $opening.film) }}
+      <aside class="ticket">
+        <p class="ticket-label">Opens Thursday</p>
+        <p class="ticket-date">{{ .date }}</p>
+        <p class="ticket-title">{{ with $film }}{{ .Title }}{{ end }}</p>
+        <p class="ticket-detail">{{ $opening.time }} · {{ $opening.screen }}</p>
+        <p class="ticket-note">{{ $opening.note }}</p>
+        {{ with $film }}<a class="ticket-link" href="{{ .RelPermalink }}">About the film</a>{{ end }}
+      </aside>
+    {{ end }}
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      {{ range site.RegularPages }}
+        {{ if eq .Section "films" }}
+          <span>{{ .Title }}</span>
+        {{ end }}
+      {{ end }}
+      {{ range site.RegularPages }}
+        {{ if eq .Section "films" }}
+          <span>{{ .Title }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <section class="band" aria-labelledby="featured-heading">
+    <div class="wrap">
+      <div class="band-head">
+        <div>
+          <p class="kicker">01 — Films</p>
+          <h2 id="featured-heading">Four to start with</h2>
+        </div>
+        <a class="text-link" href="{{ "/films/" | relURL }}">All eight films</a>
+      </div>
+      <ul class="poster-row">
+        {{ range where site.RegularPages.ByWeight "Params.featured" true }}
+          {{ partial "film-card.html" . }}
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="schedule-heading">
+    <div class="wrap">
+      <div class="band-head">
+        <div>
+          <p class="kicker">02 — Program</p>
+          <h2 id="schedule-heading">{{ site.Params.dateRange }}</h2>
+        </div>
+        <a class="text-link" href="{{ "/program/" | relURL }}">Day by day</a>
+      </div>
+      {{ partial "schedule.html" (dict "days" hugo.Data.screenings.days) }}
+    </div>
+  </section>
+
+  <section class="band quote-band">
+    <blockquote class="wrap quote">
+      <p>We program for the walk home — the film you are still arguing about when the lobby lights come up.</p>
+      <footer>Imani Brooks, artistic director</footer>
+    </blockquote>
+  </section>
+
+  <section class="band" aria-labelledby="passes-heading">
+    <div class="wrap">
+      <div class="band-head">
+        <div>
+          <p class="kicker">03 — Tickets</p>
+          <h2 id="passes-heading">Choose how you stay</h2>
+        </div>
+        <a class="text-link" href="{{ "/tickets/" | relURL }}">Pass details</a>
+      </div>
+      <ul class="pass-grid">
+        {{ range hugo.Data.passes }}
+          <li class="pass{{ if .featured }} is-featured{{ end }}">
+            {{ with .badge }}<p class="pass-badge">{{ . }}</p>{{ end }}
+            <h3>{{ .name }}</h3>
+            <p class="price"><span>$</span>{{ .price }}</p>
+            <p>{{ .blurb }}</p>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+{{ end }}

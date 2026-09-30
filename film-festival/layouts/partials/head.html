@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := .Title }}
+{{ if .IsHome }}
+  {{ $title = site.Title }}
+{{ else }}
+  {{ $title = printf "%s · %s" .Title site.Title }}
+{{ end }}
+{{ $desc := .Description | default .Params.lede | default site.Params.description }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="theme-color" content="#110f0c">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,620;1,9..144,500&family=Outfit:wght@380;500;600&display=swap" rel="stylesheet">
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Festival",
+  "name": {{ site.Title | jsonify }},
+  "startDate": "2026-10-16",
+  "endDate": "2026-10-20",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "description": {{ site.Params.description | jsonify }},
+  "location": {
+    "@type": "Place",
+    "name": {{ site.Params.venue.name | jsonify }},
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": {{ site.Params.venue.street | jsonify }},
+      "addressLocality": "Portland",
+      "addressRegion": "OR",
+      "addressCountry": "US"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": {{ site.Title | jsonify }},
+    "email": {{ site.Params.email | jsonify }}
+  }
+}
+</script>
+{{ end }}
