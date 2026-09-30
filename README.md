@@ -37,9 +37,13 @@ cd film-festival
 hugo --minify
 ```
 
-Hugo writes the finished site to `film-festival/public/`. That directory is gitignored. Before you publish, set `baseURL` in `film-festival/hugo.toml` to the real site address.
+Hugo writes the finished site to `film-festival/public/`. That directory is gitignored.
 
-Any static host can serve `public/`. Upload its contents, or point the host at that folder.
+## GitHub Pages
+
+The live site is [https://faguncb.github.io/afterglow-film-festival/](https://faguncb.github.io/afterglow-film-festival/).
+
+Pushes to `cursor/afterglow-film-festival` run `.github/workflows/hugo-pages.yml`. That workflow builds the site and deploys it to GitHub Pages. `baseURL` in `film-festival/hugo.toml` matches that address. `hugo server` still serves a local preview and does not use the public address.
 
 ## Project layout
 
