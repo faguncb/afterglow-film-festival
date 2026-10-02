@@ -40,7 +40,7 @@
       {{ if eq (.Scratch.Get "hits") 0 }}
         <p>Screening times for this film have not been posted.</p>
       {{ end }}
-      <p><a class="text-link" href="{{ "/tickets/" | relURL }}">Reserve a seat</a></p>
+      <p><a class="text-link" href="{{ (site.GetPage "/tickets").RelPermalink }}">Reserve a seat</a></p>
     </div>
   </article>
 
@@ -48,7 +48,7 @@
     <div class="wrap">
       <div class="band-head">
         <h2 id="also-heading">Also on the program</h2>
-        <a class="text-link" href="{{ "/films/" | relURL }}">All films</a>
+        <a class="text-link" href="{{ (site.GetPage "/films").RelPermalink }}">All films</a>
       </div>
       <ul class="poster-row">
         {{ $others := where (where site.RegularPages "Section" "films") "File.ContentBaseName" "ne" $slug }}
