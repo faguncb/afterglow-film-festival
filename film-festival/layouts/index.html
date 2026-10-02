@@ -41,14 +41,8 @@
 
   <section class="band" aria-labelledby="schedule-heading">
     <div class="wrap">
-      <div class="band-head">
-        <div>
-          <p class="kicker">02 — Program</p>
-          <h2 id="schedule-heading">{{ site.Params.dateRange }}</h2>
-        </div>
-        <a class="text-link" href="{{ (site.GetPage "/program").RelPermalink }}">Day by day</a>
-      </div>
-      {{ partial "schedule.html" (dict "days" hugo.Data.screenings.days) }}
+      <p class="kicker" id="schedule-heading">02 — Program</p>
+      <a class="button" href="{{ (site.GetPage "/program").RelPermalink }}">Here is the program</a>
     </div>
   </section>
 
