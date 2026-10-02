@@ -36,23 +36,8 @@
 
   <section class="band" aria-labelledby="passes-heading">
     <div class="wrap">
-      <div class="band-head">
-        <div>
-          <p class="kicker">03 — Tickets</p>
-          <h2 id="passes-heading">Choose how you stay</h2>
-        </div>
-        <a class="text-link" href="{{ (site.GetPage "/tickets").RelPermalink }}">Pass details</a>
-      </div>
-      <ul class="pass-grid">
-        {{ range hugo.Data.passes }}
-          <li class="pass{{ if .featured }} is-featured{{ end }}">
-            {{ with .badge }}<p class="pass-badge">{{ . }}</p>{{ end }}
-            <h3>{{ .name }}</h3>
-            <p class="price"><span>$</span>{{ .price }}</p>
-            <p>{{ .blurb }}</p>
-          </li>
-        {{ end }}
-      </ul>
+      <p class="kicker" id="passes-heading">03 — Tickets</p>
+      <a class="button" href="{{ (site.GetPage "/tickets").RelPermalink }}">Your tickets are here</a>
     </div>
   </section>
 {{ end }}
