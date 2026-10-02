@@ -11,7 +11,7 @@ disableKinds = ['taxonomy', 'term']
   dateRange = 'Nov 21–22, 2026'
   city = 'Vadodara, Gujarat'
   email = 'thebarodashortfilmfestival@gmail.com'
-  tagline = 'Two days of short films.'
+  tagline = 'Two days. Nine Emotions. Films that invoke the thoughts and discussions. All at one place - revisiting the rich cultural heritage of the city'
   shortName = 'Baroda Film Festival'
 
 [params.address]
