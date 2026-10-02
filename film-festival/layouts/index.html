@@ -13,29 +13,17 @@
         <a class="button ghost" href="{{ (site.GetPage "/tickets").RelPermalink }}">Get a pass</a>
       </div>
     </div>
-    {{ with index hugo.Data.screenings.days 0 }}
-      {{ $opening := index .screenings 0 }}
-      {{ $film := site.GetPage (printf "/films/%s" $opening.film) }}
-      <aside class="ticket">
-        <p class="ticket-label">Opens Saturday</p>
-        <p class="ticket-date">{{ .date }}</p>
-        <p class="ticket-title">{{ with $film }}{{ .Title }}{{ end }}</p>
-        <p class="ticket-detail">{{ $opening.time }} · {{ $opening.screen }}</p>
-        <p class="ticket-note">{{ $opening.note }}</p>
-        {{ with $film }}<a class="ticket-link" href="{{ .RelPermalink }}">About the film</a>{{ end }}
-      </aside>
-    {{ end }}
   </section>
 
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
       {{ range site.RegularPages }}
-        {{ if eq .Section "films" }}
+        {{ if and (eq .Section "films") (ne .File.ContentBaseName "the-quiet-inventory") }}
           <span>{{ .Title }}</span>
         {{ end }}
       {{ end }}
       {{ range site.RegularPages }}
-        {{ if eq .Section "films" }}
+        {{ if and (eq .Section "films") (ne .File.ContentBaseName "the-quiet-inventory") }}
           <span>{{ .Title }}</span>
         {{ end }}
       {{ end }}

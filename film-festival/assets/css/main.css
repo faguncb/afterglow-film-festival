@@ -715,7 +715,7 @@ textarea { resize: vertical; }
 }
 
 @media (min-width: 800px) {
-  .hero { grid-template-columns: 1.45fr 0.75fr; align-items: end; min-height: calc(100svh - var(--header) - 2rem); }
+  .hero { align-items: end; min-height: calc(100svh - var(--header) - 2rem); }
   .sheet-grid { grid-template-columns: minmax(0, 1.6fr) minmax(240px, 0.7fr); }
   .reserve-grid { grid-template-columns: 1fr 1fr; align-items: start; }
   .film { grid-template-columns: 320px 1fr; align-items: start; }
