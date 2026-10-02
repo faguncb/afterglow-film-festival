@@ -17,4 +17,4 @@ description: Thriller short by Adewale Okonkwo. 17 minutes.
 
 A translator is hired to render a will before morning. Every new clause contradicts the last, and the family who commissioned it keeps moving the meeting between stalls. Adewale Okonkwo stages the whole film over a single night of fluorescent light, debt, and a document nobody wants to sign in its current form.
 
-It is the festival's late picture: Friday in the Main Hall, Saturday in the Studio. Sit where you can read the subtitles.
+It is the festival's late picture: Saturday in the Main Hall, Sunday in the Studio. Sit where you can read the subtitles.

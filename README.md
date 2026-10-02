@@ -1,6 +1,6 @@
 # Baroda Film Festival Shorts 2.0
 
-A static website for Baroda Film Festival Shorts 2.0, built with [Hugo](https://gohugo.io/). This edition is five nights of short films, 16–20 October 2026, at Alkapuri Hall in Vadodara. Films, dates, and prices in the sample program can be replaced.
+A static website for Baroda Film Festival Shorts 2.0, built with [Hugo](https://gohugo.io/). This edition is two days of short films, 21–22 November 2026, at Alkapuri Hall in Vadodara. Films, dates, and prices in the sample program can be replaced.
 
 The Hugo project lives in [`film-festival/`](film-festival/).
 
@@ -8,7 +8,7 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 
 | Page | What it shows |
 | --- | --- |
-| Home | Opening-night ticket, featured films, the five-day schedule, and pass prices |
+| Home | Opening-day ticket, featured films, the two-day schedule, and pass prices |
 | Films | Coming soon |
 | Tickets | Coming soon |
 | Venue | Alkapuri Hall: address, rooms, and arrival notes |

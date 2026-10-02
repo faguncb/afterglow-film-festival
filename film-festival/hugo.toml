@@ -5,13 +5,13 @@ enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = 'Baroda Film Festival Shorts 2.0 is five nights of short films in Vadodara, October 16–20, 2026.'
+  description = 'Baroda Film Festival Shorts 2.0 is two days of short films in Vadodara, November 21–22, 2026.'
   edition = '2.0'
-  dates = 'October 16–20, 2026'
-  dateRange = 'Oct 16–20, 2026'
+  dates = 'November 21–22, 2026'
+  dateRange = 'Nov 21–22, 2026'
   city = 'Vadodara, Gujarat'
   email = 'hello@barodafilmfestival.example'
-  tagline = 'Five nights of short films.'
+  tagline = 'Two days of short films.'
   shortName = 'Baroda Shorts'
 
 [params.address]

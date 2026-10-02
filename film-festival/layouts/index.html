@@ -17,7 +17,7 @@
       {{ $opening := index .screenings 0 }}
       {{ $film := site.GetPage (printf "/films/%s" $opening.film) }}
       <aside class="ticket">
-        <p class="ticket-label">Opens Thursday</p>
+        <p class="ticket-label">Opens Saturday</p>
         <p class="ticket-date">{{ .date }}</p>
         <p class="ticket-title">{{ with $film }}{{ .Title }}{{ end }}</p>
         <p class="ticket-detail">{{ $opening.time }} · {{ $opening.screen }}</p>

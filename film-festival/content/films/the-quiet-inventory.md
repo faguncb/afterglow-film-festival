@@ -17,4 +17,4 @@ description: Experimental short by Jonah Peck. 8 minutes.
 
 Before a public library is turned over to its buyer, Jonah Peck films the inventory: chairs, card catalogs, a lost-and-found of single gloves, the marginal notes nobody catalogued. The structure is a list. The argument is about what a city owes the people who used the building as a room rather than a service.
 
-It is the shortest film in the program and the one most likely to change how the lobby sounds afterward. Saturday in the Studio, Monday before the closing film.
+It is the shortest film in the program and the one most likely to change how the lobby sounds afterward. Saturday in the Studio, Sunday before the closing film.

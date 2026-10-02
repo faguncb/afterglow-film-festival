@@ -17,4 +17,4 @@ description: Closing-night short by Elena Varga. 20 minutes.
 
 A shipyard is due to close at dawn. The family that still works the night shift has a hull, a disagreement, and no customer. Elena Varga shot the film entirely after dark, in sodium light and the occasional sweep of a real lighthouse.
 
-*Harbor Lights* closes the festival on Monday. The Baroda Shorts Award is announced after the credits, in the room, before anyone reaches the bar.
+*Harbor Lights* closes the festival on Sunday. The Baroda Shorts Award is announced after the credits, in the room, before anyone reaches the bar.

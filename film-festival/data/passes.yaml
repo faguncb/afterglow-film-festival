@@ -17,10 +17,10 @@
 - id: festival
   name: Festival pass
   price: 128
-  badge: All five nights
+  badge: Both days
   featured: true
   blurb: The whole program, from the opening reception to the Baroda Shorts Award.
   perks:
-    - Every screening, October 16–20
+    - Every screening, November 21–22
     - Opening-night reception in the lobby
     - Priority line, 30 minutes before each show

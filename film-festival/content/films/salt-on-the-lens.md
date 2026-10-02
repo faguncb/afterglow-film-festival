@@ -17,4 +17,4 @@ description: Opening-night short by Mara Ellison. 18 minutes.
 
 June Ellison comes back to a wind-beaten Oregon town to pack up her father's portrait studio. The town has other plans. Neighbors arrive with prints he never delivered, and a former assistant is already shooting the funeral like an assignment.
 
-Mara Ellison keeps the camera close to hands, weather, and the pictures people ask not to be in. *Salt on the Lens* opens the festival Thursday and returns Saturday evening for anyone who missed the first house.
+Mara Ellison keeps the camera close to hands, weather, and the pictures people ask not to be in. *Salt on the Lens* opens the festival Saturday and returns Sunday evening for anyone who missed the first house.

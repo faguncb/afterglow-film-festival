@@ -1,31 +1,7 @@
 days:
-  - weekday: Thursday
-    date: October 16
-    label: Opening night
-    screenings:
-      - time: "7:30 PM"
-        film: salt-on-the-lens
-        screen: Main Hall
-        note: Reception in the lobby after the credits
-      - time: "9:45 PM"
-        film: paper-moons
-        screen: Studio
-  - weekday: Friday
-    date: October 17
-    label: Water and after dark
-    screenings:
-      - time: "4:00 PM"
-        film: concrete-choir
-        screen: Studio
-      - time: "6:30 PM"
-        film: the-last-ferry
-        screen: Main Hall
-      - time: "9:15 PM"
-        film: night-market
-        screen: Main Hall
   - weekday: Saturday
-    date: October 18
-    label: Centerpiece
+    date: November 21
+    label: Opening day
     screenings:
       - time: "1:00 PM"
         film: the-quiet-inventory
@@ -33,16 +9,25 @@ days:
       - time: "3:30 PM"
         film: letters-from-june
         screen: Main Hall
-      - time: "6:15 PM"
+      - time: "4:00 PM"
+        film: concrete-choir
+        screen: Studio
+      - time: "6:30 PM"
+        film: the-last-ferry
+        screen: Main Hall
+      - time: "7:30 PM"
         film: salt-on-the-lens
         screen: Main Hall
-        note: Encore of the opening film
-      - time: "9:00 PM"
+        note: Reception in the lobby after the credits
+      - time: "9:15 PM"
         film: night-market
+        screen: Main Hall
+      - time: "9:45 PM"
+        film: paper-moons
         screen: Studio
   - weekday: Sunday
-    date: October 19
-    label: Second looks
+    date: November 22
+    label: Closing day
     screenings:
       - time: "12:30 PM"
         film: paper-moons
@@ -50,20 +35,23 @@ days:
       - time: "2:45 PM"
         film: concrete-choir
         screen: Main Hall
+      - time: "4:00 PM"
+        film: the-quiet-inventory
+        screen: Studio
       - time: "5:15 PM"
         film: letters-from-june
         screen: Studio
-      - time: "7:45 PM"
-        film: the-last-ferry
+      - time: "6:15 PM"
+        film: salt-on-the-lens
         screen: Main Hall
-  - weekday: Monday
-    date: October 20
-    label: Closing night
-    screenings:
-      - time: "5:00 PM"
-        film: the-quiet-inventory
-        screen: Main Hall
+        note: Encore of the opening film
       - time: "7:30 PM"
         film: harbor-lights
         screen: Main Hall
         note: Baroda Shorts Award announced after the film
+      - time: "7:45 PM"
+        film: the-last-ferry
+        screen: Studio
+      - time: "9:00 PM"
+        film: night-market
+        screen: Studio
