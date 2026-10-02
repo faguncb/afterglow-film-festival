@@ -8,27 +8,8 @@
         <li>{{ site.Params.dates }}</li>
         <li>Alembic Art District</li>
       </ul>
-      <div class="hero-actions">
-        <a class="button" href="{{ (site.GetPage "/program").RelPermalink }}">See the program</a>
-        <a class="button ghost" href="{{ (site.GetPage "/tickets").RelPermalink }}">Get a pass</a>
-      </div>
     </div>
   </section>
-
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      {{ range site.RegularPages }}
-        {{ if and (eq .Section "films") (ne .File.ContentBaseName "the-quiet-inventory") }}
-          <span>{{ .Title }}</span>
-        {{ end }}
-      {{ end }}
-      {{ range site.RegularPages }}
-        {{ if and (eq .Section "films") (ne .File.ContentBaseName "the-quiet-inventory") }}
-          <span>{{ .Title }}</span>
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
 
   <section class="band" aria-labelledby="films-heading">
     <div class="wrap">
