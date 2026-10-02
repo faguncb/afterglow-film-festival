@@ -1,48 +1,6 @@
 {{ define "main" }}
   <div class="wrap sheet">
     {{ partial "page-head.html" . }}
-    <ul class="pass-grid">
-      {{ range hugo.Data.passes }}
-        <li class="pass{{ if .featured }} is-featured{{ end }}">
-          {{ with .badge }}<p class="pass-badge">{{ . }}</p>{{ end }}
-          <h2>{{ .name }}</h2>
-          <p class="price"><span>$</span>{{ .price }}</p>
-          <p>{{ .blurb }}</p>
-          <ul>
-            {{ range .perks }}<li>{{ . }}</li>{{ end }}
-          </ul>
-        </li>
-      {{ end }}
-    </ul>
-    <div class="reserve-grid">
-      <div class="prose">{{ .Content }}</div>
-      <form class="reserve" data-reserve data-email="{{ site.Params.email }}">
-        <h2>Request seats</h2>
-        <p>This opens an email to the box office. Nothing is charged on this page.</p>
-        <div class="field-row">
-          <label>Name
-            <input name="name" type="text" autocomplete="name" required>
-          </label>
-          <label>Email
-            <input name="email" type="email" autocomplete="email" required>
-          </label>
-        </div>
-        <label>Pass
-          <select name="pass" required>
-            {{ range hugo.Data.passes }}
-              <option value="{{ .name }}">${{ .price }} — {{ .name }}</option>
-            {{ end }}
-          </select>
-        </label>
-        <label>Quantity
-          <input name="quantity" type="number" min="1" max="8" value="2" required>
-        </label>
-        <label>Note
-          <textarea name="note" rows="3" placeholder="Dates you prefer, or access needs we should plan for."></textarea>
-        </label>
-        <button class="button" type="submit">Email the box office</button>
-        <p class="form-status" data-status hidden></p>
-      </form>
-    </div>
+    {{ partial "coming-soon.html" . }}
   </div>
 {{ end }}

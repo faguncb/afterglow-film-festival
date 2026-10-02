@@ -9,13 +9,10 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 | Page | What it shows |
 | --- | --- |
 | Home | Opening-night ticket, featured films, the five-day schedule, and pass prices |
-| Films | All eight titles, with genre filters and a page for each film |
-| Program | Screenings grouped by day |
-| Tickets | Single, day, and festival passes, plus a seat-request form |
+| Films | Coming soon |
+| Tickets | Coming soon |
 | Venue | Alkapuri Hall: address, rooms, and arrival notes |
 | About | Festival background, jury, and staff |
-
-The seat-request form does not take payment. Submitting it opens an email to the box office address in `hugo.toml`.
 
 ## Requirements
 
