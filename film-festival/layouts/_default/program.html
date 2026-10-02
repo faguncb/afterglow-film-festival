@@ -1,7 +1,6 @@
 {{ define "main" }}
   <div class="wrap sheet">
     {{ partial "page-head.html" . }}
-    <div class="prose narrow">{{ .Content }}</div>
-    {{ partial "schedule.html" (dict "days" hugo.Data.screenings.days) }}
+    {{ partial "coming-soon.html" . }}
   </div>
 {{ end }}
