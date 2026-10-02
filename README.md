@@ -13,7 +13,7 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 | Program | Coming soon |
 | Submission Rules | Who can submit, runtime, selection, and rights |
 | Tickets | Coming soon |
-| Venue | Alkapuri Hall: address, rooms, and arrival notes |
+| Venue | Alembic Art District, Vadodara |
 | About | Festival background, jury, and staff |
 
 ## Requirements
