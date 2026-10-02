@@ -10,7 +10,7 @@ disableKinds = ['taxonomy', 'term']
   dates = 'November 21–22, 2026'
   dateRange = 'Nov 21–22, 2026'
   city = 'Vadodara, Gujarat'
-  email = 'hello@barodafilmfestival.example'
+  email = 'thebarodashortfilmfestival@gmail.com'
   tagline = 'Two days of short films.'
   shortName = 'Baroda Film Festival'
 
