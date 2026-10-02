@@ -12,7 +12,7 @@ disableKinds = ['taxonomy', 'term']
   city = 'Vadodara, Gujarat'
   email = 'hello@barodafilmfestival.example'
   tagline = 'Two days of short films.'
-  shortName = 'Baroda Shorts'
+  shortName = 'Baroda Film Festival'
 
 [params.address]
   locality = 'Vadodara'
