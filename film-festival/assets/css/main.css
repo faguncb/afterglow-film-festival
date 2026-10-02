@@ -464,7 +464,12 @@ main,
 .showtimes a:hover { color: var(--gold-2); }
 .show-meta, .show-note { display: block; color: var(--muted); font-size: 0.92rem; }
 
-.quote-band { padding-top: 1rem; }
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+  margin: 1.75rem 0 2rem;
+}
 
 .quote {
   margin: 0;
@@ -472,14 +477,14 @@ main,
   border-top: 1px solid var(--line);
 }
 
-.quote p {
-  max-width: 18em;
+.quotes .quote p {
+  max-width: none;
   margin-bottom: 1rem;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 3.3rem);
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
   font-style: italic;
   font-weight: 500;
-  line-height: 1.08;
+  line-height: 1.25;
 }
 
 .quote footer { color: var(--muted); }
@@ -738,6 +743,7 @@ textarea { resize: vertical; }
   .nav.is-open { display: block; }
   .nav ul { flex-direction: column; align-items: stretch; }
   .nav-cta { margin: 0.3rem 0 0; justify-content: center; }
+  .quotes,
   .pass-grid { grid-template-columns: 1fr; }
   .showtimes li { grid-template-columns: 5.4rem 1fr; }
   .showtimes .screen { grid-column: 2; }
