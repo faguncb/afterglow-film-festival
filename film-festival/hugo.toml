@@ -56,4 +56,4 @@ disableKinds = ['taxonomy', 'term']
 [[menus.main]]
   name = 'About'
   pageRef = '/about'
-  weight = 50
+  weight = 5
