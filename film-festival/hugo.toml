@@ -12,6 +12,7 @@ disableKinds = ['taxonomy', 'term']
   city = 'Vadodara, Gujarat'
   email = 'thebarodashortfilmfestival@gmail.com'
   tagline = 'Two days. Nine Emotions. Films that invoke the thoughts and discussions. All at one place - revisiting the rich cultural heritage of the city'
+  submissionForm = ''
   shortName = 'Baroda Film Festival'
 
 [params.address]

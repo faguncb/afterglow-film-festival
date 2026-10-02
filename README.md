@@ -8,7 +8,7 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 
 | Page | What it shows |
 | --- | --- |
-| Home | Opening-day ticket, featured films, the two-day schedule, and pass prices |
+| Home | Festival introduction, film submission link, schedule, and pass prices |
 | Films | Coming soon |
 | Program | Coming soon |
 | Submission Rules | Who can submit, runtime, selection, and rights |

@@ -30,20 +30,12 @@
     </div>
   </div>
 
-  <section class="band" aria-labelledby="featured-heading">
+  <section class="band" aria-labelledby="films-heading">
     <div class="wrap">
-      <div class="band-head">
-        <div>
-          <p class="kicker">01 — Films</p>
-          <h2 id="featured-heading">Four to start with</h2>
-        </div>
-        <a class="text-link" href="{{ (site.GetPage "/films").RelPermalink }}">All eight films</a>
-      </div>
-      <ul class="poster-row">
-        {{ range where site.RegularPages.ByWeight "Params.featured" true }}
-          {{ partial "film-card.html" . }}
-        {{ end }}
-      </ul>
+      <p class="kicker" id="films-heading">01 — Films</p>
+      {{ with site.Params.submissionForm }}
+        <a class="button" href="{{ . }}" target="_blank" rel="noopener noreferrer">Submit your film</a>
+      {{ end }}
     </div>
   </section>
 
