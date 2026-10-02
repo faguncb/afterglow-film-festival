@@ -13,6 +13,15 @@
             <div><dt>Screens</dt><dd>{{ site.Params.venue.screens }}</dd></div>
           </dl>
         </aside>
+      {{ else if eq .Params.sidebar "programme" }}
+        <aside class="aside-card">
+          <p class="footer-label">The programme</p>
+          <dl class="facts facts-stack">
+            {{ range .Params.stats }}
+              <div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
+            {{ end }}
+          </dl>
+        </aside>
       {{ else if eq .Params.sidebar "venue" }}
         <aside class="aside-card">
           <p class="footer-label">Box office</p>
