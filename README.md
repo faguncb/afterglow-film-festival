@@ -38,7 +38,7 @@ Hugo writes the finished site to `film-festival/public/`. That directory is giti
 
 ## GitHub Pages
 
-The live site is [https://faguncb.github.io/afterglow-film-festival/](https://faguncb.github.io/afterglow-film-festival/).
+The live site is [https://faguncb.github.io/baroda-film-festival/](https://faguncb.github.io/baroda-film-festival/).
 
 Pushes to `cursor/afterglow-film-festival` run `.github/workflows/hugo-pages.yml`. That workflow builds the site and deploys it to GitHub Pages. `baseURL` in `film-festival/hugo.toml` matches that address. `hugo server` still serves a local preview and does not use the public address.
 
