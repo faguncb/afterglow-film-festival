@@ -11,7 +11,7 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 | Home | Opening-day ticket, featured films, the two-day schedule, and pass prices |
 | Films | Coming soon |
 | Program | Coming soon |
-| Submission Rules | Coming soon |
+| Submission Rules | Who can submit, runtime, selection, and rights |
 | Tickets | Coming soon |
 | Venue | Alkapuri Hall: address, rooms, and arrival notes |
 | About | Festival background, jury, and staff |

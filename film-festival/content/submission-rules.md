@@ -1,5 +1,192 @@
 ---
 title: Submission Rules
-layout: coming-soon
-description: Submission rules for Baroda Film Festival Shorts 2.0.
+kicker: Guidelines
+lede: We see this festival not simply as a place to screen films, but as a space where filmmakers, audiences and communities can meet through cinema.
+description: Submission rules and regulations for Baroda Film Festival Shorts 2.0.
 ---
+
+We welcome films that come from different places, languages, budgets and ways of seeing the world. Before submitting, please read the guidelines below so that the process remains fair and transparent for everyone.
+
+## 1. Who can submit
+
+Submissions are open to independent filmmakers, students, film collectives and production teams.
+
+The person submitting the film should be the filmmaker, producer, rights holder, or someone authorised to submit it on their behalf.
+
+## 2. Film duration
+
+Short films must have a maximum runtime between 5 minutes and 25 minutes, including credits.
+
+Films exceeding this duration may only be considered in exceptional cases or by invitation.
+
+## 3. What kind of films are welcome?
+
+We welcome:
+
+- Fiction
+- Fiction — animated
+- Fiction — experimental
+
+We are interested in films with a distinct voice, perspective or way of looking at the world.
+
+A large budget, professional equipment or an established name is not a requirement.
+
+## 4. Completion date
+
+Films should have been completed on or after [insert eligibility date/year].
+
+## 5. Language and subtitles
+
+Films may be submitted in any language.
+
+Films containing dialogue in languages other than English should include clear and readable English subtitles, so that the film can be experienced by our selection team and a wider audience.
+
+## 6. Previous screenings and premiere status
+
+We do not require world, India, state or city premiere status, unless specifically mentioned for a particular programme.
+
+Films previously screened at other festivals may be submitted.
+
+Films already available online may also be considered.
+
+For us, discovering a meaningful film is more important than being the first place to screen it.
+
+## 7. How to submit
+
+Films should be submitted through FilmFreeway or through an online screener approved by the festival.
+
+Please make sure that all screening links and passwords remain active throughout the selection period.
+
+## 8. Multiple films
+
+Filmmakers are welcome to submit more than one film.
+
+Each film should be submitted separately.
+
+## 9. Tell us about your film
+
+Please provide accurate basic information about the film, including:
+
+- Title
+- Director
+- Runtime
+- Year of completion
+- Country/region
+- Language
+- Synopsis
+- Director's biography
+- Relevant cast and crew information
+
+We encourage filmmakers to keep their synopsis simple and let the film speak for itself.
+
+## 10. Rights and permissions
+
+The filmmaker or submitter must hold the necessary rights and permissions for everything included in the film. This may include:
+
+- Music
+- Photographs and images
+- Archival material
+- Artwork
+- Performances
+- Written material
+- Third-party audio or video
+
+Responsibility for securing these rights remains with the filmmaker.
+
+## 11. Generative AI
+
+If generative AI has played a substantial creative role in the film, please mention this during submission.
+
+This may include AI-generated images, animation, voices, music, scripts or visual elements.
+
+The use of AI does not automatically make a film more or less suitable for the festival.
+
+We simply believe that understanding how a work was created is part of understanding the work itself.
+
+## 12. How films are selected
+
+Every eligible film will be viewed and considered by our programming or selection team.
+
+We may respond to different qualities in different films, including:
+
+- Originality
+- Storytelling
+- Cinematic language
+- Emotional resonance
+- Creative risk
+- Perspective
+- Ability to provoke thought or conversation
+- Mainly highlighting at least one of the nine emotions (any of the [Nav Rasas as per the Natyashastra]({{< relref "/about" >}}))
+
+We are not looking for technical perfection alone.
+
+Sometimes a small, imperfect film can say something far more memorable than a technically polished one.
+
+## 13. Selection decisions
+
+Submitting a film does not guarantee selection.
+
+Programming decisions made by the festival will be final.
+
+Because of the number of submissions, we may not always be able to provide individual feedback to films that are not selected.
+
+Please know that non-selection does not necessarily mean that we consider a film unsuccessful. Programming also depends on the character, balance and conversation of each festival edition.
+
+## 14. If your film is selected
+
+If selected, the filmmaker grants the festival permission to screen the film as part of the edition for which it was submitted.
+
+The filmmaker continues to retain full ownership and copyright of the film.
+
+Any screening outside the agreed festival context will require separate permission.
+
+## 15. Screening copy
+
+Selected filmmakers will be asked to provide a high-quality screening copy within the specified deadline.
+
+Technical requirements will be communicated after selection.
+
+We want audiences to experience every film as closely as possible to the way its filmmaker intended.
+
+## 16. Promotional material
+
+Selected filmmakers may be asked to provide:
+
+- Film poster
+- Film stills
+- Synopsis
+- Director's photograph and biography
+- Trailer or teaser
+- Cast and crew details
+
+The festival may use these materials to promote the selected film and the festival through its website, social media, press communication and programme material.
+
+## 17. Film clips
+
+Short excerpts, trailers or clips from selected films may be used for festival-related promotion.
+
+The complete film will not be commercially distributed, sold or used outside the agreed festival context without the filmmaker's permission.
+
+## 18. Withdrawal
+
+If circumstances require you to withdraw your film, please inform us as early as possible.
+
+Once the official programme has been announced, we request filmmakers not to withdraw their films except in exceptional circumstances.
+
+A festival programme involves audiences, venues, schedules and many people working together, and every selected film becomes part of that larger commitment.
+
+## 19. By submitting
+
+By submitting your film, you confirm that you have read and accepted these guidelines.
+
+The festival may make reasonable changes to screening schedules, venues or programme arrangements where circumstances require it.
+
+## Why we do this
+
+At the heart of this festival is a simple idea: cinema becomes richer when it is shared.
+
+We want to create a space where filmmakers can encounter audiences, audiences can encounter unfamiliar stories, and conversations can continue after the screen goes dark.
+
+We welcome emerging filmmakers alongside experienced ones, local stories alongside distant ones, and films that challenge us alongside films that simply make us feel something deeply.
+
+If your film has something it genuinely wants to communicate, we would like to see it.
