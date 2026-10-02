@@ -1,14 +1,14 @@
 ---
 title: Venue
-kicker: The Lantern
-lede: A two-screen house on Ash Street. The Main Hall faces the street. The Studio is through the lobby, past the bar.
+kicker: Alkapuri Hall
+lede: A two-screen house on RC Dutt Road. The Main Hall faces the street. The Studio is through the lobby, past the bar.
 sidebar: venue
-description: Afterglow screens at The Lantern, 418 Ash Street, Portland.
+description: Baroda Film Festival Shorts 2.0 screens at Alkapuri Hall, RC Dutt Road, Vadodara.
 ---
 
 ## Getting here
 
-The Lantern is a short walk from the waterfront streetcar. The Oak lot two blocks south posts a festival rate after 4 p.m. Bike parking is in the alley. Rideshares should use the Ash Street door, not the alley.
+Alkapuri Hall is a short ride from Vadodara railway station. The lot behind the hall posts a festival rate after 4 p.m. Bike parking is along the side lane. Rideshares should use the RC Dutt Road door, not the lane.
 
 ## In the rooms
 

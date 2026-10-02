@@ -1,6 +1,6 @@
 ---
 title: Films
-kicker: 2026 program
-lede: Eight films. No red carpet, no late seating once the titles start.
+kicker: Shorts 2.0
+lede: Eight shorts. No red carpet, no late seating once the titles start.
 ---
-The features and one animated short screening at The Lantern this October.
+The shorts screening at Alkapuri Hall this October.

@@ -1,14 +1,14 @@
 ---
 title: About
-kicker: Edition 12
-lede: Afterglow started as a long weekend in a borrowed church hall. It still fits in one building.
+kicker: Shorts 2.0
+lede: Baroda Film Festival Shorts returns for a second edition, still in one building, still after dark.
 sidebar: facts
-description: Afterglow is a five-night independent film festival in Portland, founded in 2015.
+description: Baroda Film Festival Shorts 2.0 is a five-night short film festival in Vadodara.
 ---
 
-The festival programs films that reward a second conversation: a documentary about a ferry schedule, a thriller that never leaves a night market, an animated short with no dialogue. We show eight titles across five nights so you can actually see them.
+The festival programs shorts that reward a second conversation: a documentary about a ferry schedule, a thriller that never leaves a night market, an animated film with no dialogue. We show eight titles across five nights so you can actually see them.
 
-There is one prize. A three-person jury gives the Lantern Award on closing night, after *Harbor Lights*. The jury watches the program with everybody else. They do not publish a shortlist.
+There is one prize. A three-person jury gives the Baroda Shorts Award on closing night, after *Harbor Lights*. The jury watches the program with everybody else. They do not publish a shortlist.
 
 ## Jury
 

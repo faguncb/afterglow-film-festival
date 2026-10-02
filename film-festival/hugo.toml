@@ -1,23 +1,28 @@
 baseURL = 'https://faguncb.github.io/afterglow-film-festival/'
 locale = 'en-us'
-title = 'Afterglow Film Festival'
+title = 'Baroda Film Festival Shorts 2.0'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = 'Afterglow is five nights of independent cinema at The Lantern in Portland, October 16–20, 2026.'
-  edition = '12'
+  description = 'Baroda Film Festival Shorts 2.0 is five nights of short films in Vadodara, October 16–20, 2026.'
+  edition = '2.0'
   dates = 'October 16–20, 2026'
   dateRange = 'Oct 16–20, 2026'
-  city = 'Portland, Oregon'
-  email = 'hello@afterglow.example'
-  tagline = 'Five nights of independent cinema.'
-  founded = '2015'
+  city = 'Vadodara, Gujarat'
+  email = 'hello@barodafilmfestival.example'
+  tagline = 'Five nights of short films.'
+  shortName = 'Baroda Shorts'
+
+[params.address]
+  locality = 'Vadodara'
+  region = 'Gujarat'
+  country = 'IN'
 
 [params.venue]
-  name = 'The Lantern'
-  street = '418 Ash Street'
-  locality = 'Portland, Oregon'
+  name = 'Alkapuri Hall'
+  street = 'RC Dutt Road'
+  locality = 'Vadodara, Gujarat'
   screens = 'Main Hall, 420 seats · Studio, 90 seats'
 
 [[menus.main]]

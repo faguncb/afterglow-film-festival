@@ -1,4 +1,4 @@
 ---
-title: Afterglow Film Festival
-description: Five nights of independent cinema at The Lantern in Portland, October 16–20, 2026.
+title: Baroda Film Festival Shorts 2.0
+description: Five nights of short films at Alkapuri Hall in Vadodara, October 16–20, 2026.
 ---

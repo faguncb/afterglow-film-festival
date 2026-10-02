@@ -2,7 +2,7 @@
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
 director: ""
-runtime: 90
+runtime: 15
 year: 2026
 country: ""
 language: "English"

@@ -74,7 +74,7 @@ if (form) {
       `Quantity: ${quantity}`,
       note ? `Note: ${note}` : "",
     ].filter(Boolean);
-    const href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(`Afterglow pass request: ${pass}`)}&body=${encodeURIComponent(lines.join("\n"))}`;
+    const href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(`Baroda Film Festival Shorts 2.0 pass request: ${pass}`)}&body=${encodeURIComponent(lines.join("\n"))}`;
     window.location.href = href;
   });
 }

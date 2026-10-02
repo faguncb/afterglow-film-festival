@@ -219,7 +219,8 @@ main,
   line-height: 0.84;
 }
 
-.hero h1 em {
+.hero h1 em,
+.hero-shorts {
   display: block;
   margin-top: 0.35rem;
   color: var(--gold-2);
@@ -227,6 +228,25 @@ main,
   font-style: italic;
   font-weight: 500;
   letter-spacing: -0.03em;
+}
+
+.hero-shorts {
+  font-family: var(--sans);
+  font-size: 0.18em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.brand-sub {
+  color: var(--gold);
+  font-family: var(--sans);
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .hero-facts {

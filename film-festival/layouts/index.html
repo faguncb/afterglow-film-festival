@@ -1,9 +1,9 @@
 {{ define "main" }}
   <section class="hero wrap">
     <div class="hero-copy">
-      <p class="kicker">Edition {{ site.Params.edition }} · Est. {{ site.Params.founded }}</p>
-      <h1>Afterglow <em>Film Festival</em></h1>
-      <p class="lede">{{ site.Params.tagline }} Eight new films, two screens, and a lobby that stays open late.</p>
+      <p class="kicker">{{ site.Params.shortName }} · {{ site.Params.city }}</p>
+      <h1>Baroda <em>Film Festival</em> <span class="hero-shorts">Shorts {{ site.Params.edition }}</span></h1>
+      <p class="lede">{{ site.Params.tagline }} Eight new shorts, two screens, and a lobby that stays open late.</p>
       <ul class="hero-facts">
         <li>{{ site.Params.dates }}</li>
         <li>{{ site.Params.venue.name }}, {{ site.Params.city }}</li>

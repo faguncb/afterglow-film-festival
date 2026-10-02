@@ -37,9 +37,9 @@
     "address": {
       "@type": "PostalAddress",
       "streetAddress": {{ site.Params.venue.street | jsonify }},
-      "addressLocality": "Portland",
-      "addressRegion": "OR",
-      "addressCountry": "US"
+      "addressLocality": {{ site.Params.address.locality | jsonify }},
+      "addressRegion": {{ site.Params.address.region | jsonify }},
+      "addressCountry": {{ site.Params.address.country | jsonify }}
     }
   },
   "organizer": {

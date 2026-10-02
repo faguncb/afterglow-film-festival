@@ -1,6 +1,6 @@
-# Afterglow Film Festival
+# Baroda Film Festival Shorts 2.0
 
-A static website for a five-night independent film festival, built with [Hugo](https://gohugo.io/). The sample edition is **Afterglow**, 16–20 October 2026, at The Lantern in Portland. Names, films, dates, and prices are placeholder content meant to be replaced.
+A static website for Baroda Film Festival Shorts 2.0, built with [Hugo](https://gohugo.io/). This edition is five nights of short films, 16–20 October 2026, at Alkapuri Hall in Vadodara. Films, dates, and prices in the sample program can be replaced.
 
 The Hugo project lives in [`film-festival/`](film-festival/).
 
@@ -12,7 +12,7 @@ The Hugo project lives in [`film-festival/`](film-festival/).
 | Films | All eight titles, with genre filters and a page for each film |
 | Program | Screenings grouped by day |
 | Tickets | Single, day, and festival passes, plus a seat-request form |
-| Venue | The Lantern: address, rooms, and arrival notes |
+| Venue | Alkapuri Hall: address, rooms, and arrival notes |
 | About | Festival background, jury, and staff |
 
 The seat-request form does not take payment. Submitting it opens an email to the box office address in `hugo.toml`.

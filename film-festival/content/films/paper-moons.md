@@ -1,7 +1,7 @@
 ---
 title: Paper Moons
 director: Lila Voss
-runtime: 78
+runtime: 9
 year: 2026
 country: Germany
 language: No dialogue
@@ -12,7 +12,7 @@ poster: "linear-gradient(160deg, #3a2030 0%, #c46b73 48%, #f0d2b8 100%)"
 tagline: A child cuts a moon each night so someone can find the way back.
 summary: Lila Voss's hand-cut paper animation, told without dialogue.
 weight: 30
-description: Animated feature by Lila Voss. 78 minutes. No dialogue.
+description: Animated short by Lila Voss. 9 minutes. No dialogue.
 ---
 
 Each evening a girl builds a moon out of paper and hangs it where her grandmother can see it from the hospital window. The moons get larger. The room gets smaller. There is no dialogue, only a toy piano and the sound of scissors.
